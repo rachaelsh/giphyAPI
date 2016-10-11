@@ -1,7 +1,5 @@
 
 $(document).ready(function(){
-  // var submitting = function(){
-
   $("#subButton").submit(function(event){
     event.preventDefault();
     var query = $("#inputText").val();
